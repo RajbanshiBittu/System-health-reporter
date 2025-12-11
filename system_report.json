@@ -2,16 +2,16 @@
   "cpu": {
     "model": "142",
     "cores": 8,
-    "usage": 6.8948288541430145
+    "usage": "4.20"
   },
   "memory": {
-    "total": 7.599758148193359,
-    "used": 7.23095703125,
-    "free": 0.3688011169433594
+    "total": "7.60",
+    "used": "5.84",
+    "free": "1.76"
   },
   "disk": {
-    "total": null,
-    "used": null,
-    "free": null
+    "total": "238.47",
+    "used": "16.67",
+    "free": "221.80"
   }
 }

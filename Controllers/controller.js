@@ -16,7 +16,8 @@ const getSystemMetrics = async () => {
     const cpu = await si.cpu();
     const load = await si.currentLoad();
     const memory = await si.mem();
-    const diskArr = await si.fsSize({fsPath: '/hostroot'}); // Get disk usage on the root directory
+    const diskArr = await si.fsSize(); // Get disk usage on the root directory - { fsPath: '/hostroot' }
+
 
     const diskMetrics = {
       total: diskArr.reduce((acc, d) => acc + d.size, 0) / 1024 / 1024 / 1024,
